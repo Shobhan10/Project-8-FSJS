@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #3E4794;
+    --secondary-color: linear-gradient(to right, rgb(150, 92, 242),rgb(255, 138, 220));
+    --black-color: #000000;
+    --white-color: #ffffff;
+}
+
+body {
+    overflow: hidden;
+}
+
+.main-div {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    margin: 3% 8%;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img[alt="logo"] {
+    width: 7rem;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-items .nav-item {
+    font-size: 15px;
+    padding: 0 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
+nav .signin-btn {
+    background: var(--secondary-color);
+    border: none;
+    width: 75px;
+    height: 22px;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 20px;
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+/* ------------------------------------- */
+/* ---------- Intro-section ------------ */
+/* ------------------------------------- */
+
+
+/* ---------- left-section ------------- */
+
+.intro-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left-section {
+    margin-top: 112px;
+}
+
+.left-section h1 {
+    font-size: 65px;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.left-section h4 {
+    margin-top: 32px;
+    font-weight: 100;
+    opacity: 0.8;
+    font-size: 12px;
+    padding-right: 315px;
+    line-height: 22px;
+}
+
+.left-section .learn-more-btn {
+    background: var(--secondary-color);
+    border: none;
+    width: 170px;
+    height: 42px;
+    font-size: 19px;
+    margin-top: 40px;
+    font-weight: 500;
+    border-radius: 20px;
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+/* ---------- right-section ------------- */
+
+.imgs-div .vector-img {
+    position: absolute;
+    top: 420px;
+    right: 543px;
+    width: 80px;
+}
+
+.imgs-div .vector-dot {
+    position: absolute;
+    top: 425px;
+    right: 560px;
+    width: 14px
+}
+
+.imgs-div img[alt="intro-img"] {
+    background: url(../images/backcover.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 650px;
+    top: 0;
+    right: -41px;
+    padding: 7% 8% 0 0;
+}
+
