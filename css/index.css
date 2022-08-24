@@ -81,6 +81,7 @@ nav .signin-btn {
     font-size: 65px;
     color: var(--primary-color);
     font-weight: 600;
+    width: 350px;
 }
 
 .left-section h4 {
@@ -88,7 +89,7 @@ nav .signin-btn {
     font-weight: 100;
     opacity: 0.8;
     font-size: 12px;
-    padding-right: 315px;
+    width: 270px;
     line-height: 22px;
 }
 
@@ -132,3 +133,42 @@ nav .signin-btn {
     padding: 7% 8% 0 0;
 }
 
+@media screen and (max-width: 990px) {
+    .imgs-div img[alt="intro-img"] {
+        opacity: 0.3;
+    }
+
+    .intro-section {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .left-section {
+        justify-self: center;
+    }
+   
+}
+
+@media screen and (max-width: 810px) {
+    .nav-items {
+        display: none;
+    }
+
+    .imgs-div img[alt="intro-img"] {
+        width: 500px;
+    }
+
+    .imgs-div .vector-img {
+        position: fixed;
+        top: 520px;
+        right: 243px;
+        width: 80px;
+    }
+    
+    .imgs-div .vector-dot {
+        position: fixed;
+        top: 525px;
+        right: 260px;
+        width: 14px
+    }
+}
