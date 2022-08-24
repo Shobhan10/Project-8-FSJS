@@ -14,6 +14,7 @@ Hi 👋 I am Shobhan Sundar Goutam. This project is made with the help of `HTML`
 
   - Learned to use `absolute` property of CSS positions.
   - Learned to use both flexbox and grid.
+  - Learned to make responsive with css.
 
 - It took around _3 hours_ to complete.
 
