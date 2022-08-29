@@ -10,6 +10,10 @@ Hi 👋 I am Shobhan Sundar Goutam. This project is made with the help of `HTML`
 
 ![Project-8 Screenshot](./project-8.png)
 
+### Screenshot
+
+![Project-8 Mobile Screenshot](./project-8-mobile.jpg)
+
 - ### Learnings from this project:-
 
   - Learned to use `absolute` property of CSS positions.
