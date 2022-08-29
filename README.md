@@ -19,7 +19,3 @@ Hi 👋 I am Shobhan Sundar Goutam. This project is made with the help of `HTML`
 ### Screenshot
 
 ![Project-8 Screenshot](./project-8.png)
-
-### Mobile Layout:
-
-![Project-8 Mobile Screenshot](./project-8-mobile.jpg)
